@@ -12,10 +12,6 @@ st.image(image)
 
 reg=pickle.load(open("linearreg.sav",'rb'))
 
-
-
-st.title("Car Prize Prediction")
-
 col1, col2, = st.columns(2)
 
 col3,col4 =st.columns(2)
