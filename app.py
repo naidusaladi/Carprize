@@ -1,6 +1,15 @@
 import streamlit as st
 import pickle
 import math
+from PIL import Image
+
+
+st.title("Car Prize Prediction")
+
+
+image = Image.open("th.jpg")
+st.image(image)
+
 reg=pickle.load(open("linearreg.sav",'rb'))
 
 
