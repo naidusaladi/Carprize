@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import math
-reg=pickle.load(open("C:\\Users\\DELL\\Desktop\\Untitled Folder\\linearreg.sav",'rb'))
+reg=pickle.load(open("linearreg.sav",'rb'))
 
 
 
